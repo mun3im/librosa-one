@@ -16,7 +16,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-filename = 'humpback_whales.wav'
+filename = '/home/munim/Music/Pigeon-sound.mp3'
 y, sr = librosa.load(filename)
 # trim silent edges
 whale_song, _ = librosa.effects.trim(y)
